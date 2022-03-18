@@ -12,7 +12,7 @@ function showContent(data){
 }
 
 function turnSlide(n){
-	let house_url = `https://my-json-server.typicode.com/NikitaKorkuts/house_sale/house${house_id + n}`;
+	let house_url = `https://my-json-server.typicode.com/NikitaKorkuts/JS-Real-Estate-Site/house${house_id + n}`;
 
 	sendRequest('GET', house_url)
 		.then(data => {
