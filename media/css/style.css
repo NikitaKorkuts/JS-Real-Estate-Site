@@ -153,7 +153,6 @@ main{
 	-ms-align-items: center;
 	align-items: center;
 
-
 	color: #fff;
 	font-weight: 100;
 }
@@ -293,4 +292,37 @@ footer p {
 	font-size: 18px;
 	color: grey;
 	margin-left: 8px;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (max-width: 1300px) {
+	.logo {
+		left: 5px;	
+	}
+
+	.logo img {
+		width: 150px;
+		height: 150px;
+	}
+
+	.arrows:first-child{
+		left: 15px;
+	}
+
+	.arrows:nth-child(2){
+		right: 15px;
+	}
+}
+
+@media (max-width: 1120px) {
+	#main .image .image__text {
+		top: 380px;
+	}
+}
+
+@media (max-width: 1020px) {
+	#property_derails{
+	margin-top: -130px;
+}
 }
